@@ -28,6 +28,7 @@ return {
       extended_keymaps = true,
       override_keymaps = true,
       always_scroll = true,
+      default_delay = 3,
     } end
   }
 }
