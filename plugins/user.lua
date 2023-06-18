@@ -17,19 +17,20 @@ return {
       style = "storm",
       transparent = true
     },
-  }, 
+  },
   {
-    "declancm/cinnamon.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function() require('cinnamon').setup{
-      default_keymaps = true,
-      extra_keymaps = true,
-      extended_keymaps = true,
-      override_keymaps = true,
-      always_scroll = true,
-      default_delay = 3,
-    } end
-  }
+    "sudormrfbin/cheatsheet.nvim",
+    lazy = false
+  },
+  {
+    "linux-cultist/venv-selector.nvim",
+    opts = {},
+    keys = { { "<leader>lv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv" } },
+  },
+  {
+    require("toggleterm").setup {
+      shell = "C:/Users/hbar6/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/pwsh.exe"
+    }
+  },
+  { "mfussenegger/nvim-dap", enabled = true }
 }
-
