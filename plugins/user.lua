@@ -27,10 +27,5 @@ return {
     opts = {},
     keys = { { "<leader>lv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv" } },
   },
-  {
-    require("toggleterm").setup {
-      shell = "C:/Users/hbar6/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/pwsh.exe"
-    }
-  },
   { "mfussenegger/nvim-dap", enabled = true }
 }
