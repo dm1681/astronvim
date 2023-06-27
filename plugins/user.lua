@@ -27,5 +27,7 @@ return {
     opts = {},
     keys = { { "<leader>lv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv" } },
   },
-  { "mfussenegger/nvim-dap", enabled = true }
+  { "mfussenegger/nvim-dap", enabled = true }, 
+  { "tpope/vim-surround",
+    lazy = false}
 }
